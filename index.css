@@ -1,0 +1,59 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .todo-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+    margin-left: .4em;
+}
+.todo-input{
+    padding: .75em;
+    margin-right: 1em;
+    width: 78%;
+    border: none;
+    font-size: 1.3rem;
+    
+}
+.add-btn{
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 1000x;
+    width: 33vw;
+    padding: 15px;
+    background-color: bisque;
+    border-radius: 8px;
+}
+
+.created-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+#render{
+    display: flex;
+    width: 90%;
+    font-size: 1.3rem;
+}
+
+
